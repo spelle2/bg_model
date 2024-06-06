@@ -2,6 +2,7 @@
 
 This repository contains a model of basal ganglia able to simulate both deterministic and probabilistic reversal learning tasks. Moreover, with this model we were able to 
 explore the dopaminergic system's influence on learning, particularly in Parkinson's Disease (PD), where medication leads to impaired adaptability.
+[The link to the official paper will be available soon]
 
 ## Basal Ganglia model
 <p align="center">
@@ -14,8 +15,7 @@ The model comprises a sensory representation (S) and a motor representation (C) 
 The model integrates three primary pathways: direct (via Go neurons), indirect (via NoGo neurons), and hyperdirect (via STN).
 
 
-(Baston and Ursino, 2015; Schirru et al., 2022).
-## Deterministic Tasks
+## Deterministic Task
 <p align="center">
   <img src="Deterministic Task.png" alt="fig2"/>
 </p>
@@ -23,3 +23,36 @@ In the original experiment presented by Cools et al. (Cools et al., 2006), parti
 Participants were presented with two images per trial; one of them is highlighted. By pressing a corresponding button, they had to predict the outcome of the player game: a win (green button) or loss (red button) associated with the highlighted image. This setup allows participants to learn these associations over time. During the task, reversal phases were introduced where the previously learned associations were switched. Now, the image previously associated with a win represents a loss and vice versa. This tests the subject’s adaptability and learning under changed conditions. 
 Crucially, the participant predicts "a posteriori" whether the player has won or lost, meaning they could not influence the results, only predict what happened.
 The task consists of separate blocks, each comprising 120 trials, during which a reversal occurs several times: in detail, a reversal takes place once an appropriate amount of knowledge is achieved. The criterion of knowledge is a predefined number of consecutive correct responses (ranging from 5 to 9, selected randomly) to prevent predictability of the reversal.
+
+## Probabilistic Task
+
+
+## Citing
+```bibtex
+@article{Baston2015,
+  title = {A Biologically Inspired Computational Model of Basal Ganglia in Action Selection},
+  volume = {2015},
+  ISSN = {1687-5265, 1687-5273},
+  url = {https://doi.org/10.1155/2015/187417},
+  DOI = {10.1155/2015/187417},
+  journal = {Computational Intelligence and Neuroscience},
+  author = {Baston,  Chiara and Ursino,  Mauro},
+  year = {2015},
+  pages = {1-24}
+}
+```
+```bibtex
+@article{Schirru2022,
+  title = {Phasic Dopamine Changes and Hebbian Mechanisms during Probabilistic Reversal Learning in Striatal Circuits: A Computational Study},
+  volume = {23},
+  ISSN = {1422-0067},
+  url = {https://doi.org/10.3390/ijms23073452},
+  DOI = {10.3390/ijms23073452},
+  journal = {International Journal of Molecular Sciences},
+  author = {Schirru, Miriam and Véronneau-Veilleux, Florence and Nekka, Fahima  and Ursino,  Mauro},
+  year = {2015},
+  month = {03}
+  pages = {3452}
+}
+```
+
