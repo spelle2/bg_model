@@ -19,12 +19,12 @@ The model integrates three primary pathways: direct (via Go neurons), indirect (
 <p align="center">
   <img src="Deterministic Task.png" alt="fig2"/>
 </p>
-In the original experiment presented by Cools et al. (Cools et al., 2006), participants (PD-OFF, PD-ON, Control) predicted outcomes in a simulated card game (Fig. 4). Participants were instructed to imagine themselves as a casino boss observing a player during a card game (see Cools et al. 2006 for more details). 
-Participants were presented with two images per trial; one of them is highlighted. By pressing a corresponding button, they had to predict the outcome of the player game: a win (green button) or loss (red button) associated with the highlighted image. This setup allows participants to learn these associations over time. During the task, reversal phases were introduced where the previously learned associations were switched. Now, the image previously associated with a win represents a loss and vice versa. This tests the subject’s adaptability and learning under changed conditions. 
+Participants were instructed to imagine themselves as a casino boss observing a player during a card game (see Cools et al. 2006 for more details). In particular, they were presented with two images per trial; one of them is highlighted. By pressing a corresponding button, they had to predict the outcome of the player game: a win (green button) or loss (red button) associated with the highlighted image. This setup allows participants to learn these associations over time. During the task, reversal phases were introduced where the previously learned associations were switched. Now, the image previously associated with a win represents a loss and vice versa. This tests the subject’s adaptability and learning under changed conditions. 
 Crucially, the participant predicts "a posteriori" whether the player has won or lost, meaning they could not influence the results, only predict what happened.
 The task consists of separate blocks, each comprising 120 trials, during which a reversal occurs several times: in detail, a reversal takes place once an appropriate amount of knowledge is achieved. The criterion of knowledge is a predefined number of consecutive correct responses (ranging from 5 to 9, selected randomly) to prevent predictability of the reversal.
 
 ## Probabilistic Task
+The probabilistic task is the one presented by(Cools et al., 2001), two different colors are directly associated with rewards or punishment in a probabilistic way. In detail, selecting a color resulted in a reward 80% of the time and a punishment 20% of the time. In contrast, choosing the other color is rewarded with a 20% probability and punished with an 80% probability. 
 
 
 ## Citing
