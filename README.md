@@ -6,5 +6,5 @@ This repository contains a model of basal ganglia able to simulate both determin
 
 ## Basal Ganglia model
 <p align="center">
-  <img src="BG_MODEL.tif" alt="fig"/>
+  <img src="BG_MODEL.png" alt="fig"/>
 </p>
