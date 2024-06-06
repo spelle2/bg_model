@@ -17,7 +17,7 @@ The model integrates three primary pathways: direct (via Go neurons), indirect (
 (Baston and Ursino, 2015; Schirru et al., 2022).
 ## Deterministic Tasks
 <p align="center">
-  <img src="Deterministic task.png" alt="fig"/>
+  <img src="Deterministic Task.png" alt="fig2"/>
 </p>
 In the original experiment presented by Cools et al. (Cools et al., 2006), participants (PD-OFF, PD-ON, Control) predicted outcomes in a simulated card game (Fig. 4). Participants were instructed to imagine themselves as a casino boss observing a player during a card game (see Cools et al. 2006 for more details). 
 Participants were presented with two images per trial; one of them is highlighted. By pressing a corresponding button, they had to predict the outcome of the player game: a win (green button) or loss (red button) associated with the highlighted image. This setup allows participants to learn these associations over time. During the task, reversal phases were introduced where the previously learned associations were switched. Now, the image previously associated with a win represents a loss and vice versa. This tests the subject’s adaptability and learning under changed conditions. 
